@@ -4,6 +4,7 @@
     "update.mode": "manual",
     "extensions.autoUpdate": false,
     "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
     /** ------------ Workbench Configurations ------------ **/
     "workbench.settings.applyToAllProfiles": [],
     "workbench.colorCustomizations": {
