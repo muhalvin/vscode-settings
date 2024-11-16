@@ -1,10 +1,12 @@
 {
     /** ------------ VsCode Configurations ------------ **/
     "extensions.autoCheckUpdates": false,
-    "update.mode": "manual",
     "extensions.autoUpdate": false,
+    "update.mode": "manual",
+    /** ------------ Window Configurations ------------ **/
     "window.commandCenter": false,
     "window.menuBarVisibility": "compact",
+    "workbench.activityBar.iconClickBehavior": "focus",
     /** ------------ Workbench Configurations ------------ **/
     "workbench.settings.applyToAllProfiles": [],
     "workbench.colorCustomizations": {
@@ -26,6 +28,7 @@
     "workbench.editor.limit.value": 5,
     "workbench.layoutControl.enabled": false,
     "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
     /** ------------ Explorers Configurations ------------ **/
     "explorer.openEditors.visible": 5,
     "explorer.autoReveal": false,
@@ -56,6 +59,7 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,
+    "editor.accessibilitySupport": "off",
     /** ------------ Terminal Settings ------------ **/
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', Monospace",
