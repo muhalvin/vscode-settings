@@ -64,7 +64,7 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.minimap.enabled": false,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.stickyScroll.enabled": false,
     "editor.tabSize": 4,
     "multiDiffEditor.experimental.enabled": true,
@@ -88,4 +88,10 @@
         "*.blade.php": "blade"
     },
     "json.schemas": [],
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    /** ------------ Laravel Blade Formater ------------ **/
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.format.wrapLineLength": 150
 }
